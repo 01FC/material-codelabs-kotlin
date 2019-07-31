@@ -22,7 +22,7 @@ android {
 }
 
 dependencies {
-    api 'com.google.android.material:material:1.1.0-alpha08'
+    api 'com.google.android.material:material:1.1.0-alpha07'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.android.volley:volley:1.1.1'
     implementation 'com.google.code.gson:gson:2.8.5'
