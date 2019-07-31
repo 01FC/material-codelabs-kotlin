@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".ProductGridFragment">
 
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:paddingBottom="100dp"
+        style="@style/Widget.Shrine.Backdrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/shr_backdrop" />
+    </LinearLayout>
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,11 +28,12 @@
             style="@style/Widget.Shrine.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:navigationIcon="@drawable/shr_menu"
+            app:navigationIcon="@drawable/shr_branded_menu"
             app:title="@string/shr_app_name" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.core.widget.NestedScrollView
+        android:id="@+id/product_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/productGridBackgroundColor"

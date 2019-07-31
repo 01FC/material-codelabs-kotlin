@@ -57,5 +57,7 @@
         <item name="colorError">#FD9725</item>
     </style>
 
-
+    <style name="Widget.Shrine.Backdrop" parent="">
+        <item name="android:background">?attr/colorAccent</item>
+    </style>
 </resources>
